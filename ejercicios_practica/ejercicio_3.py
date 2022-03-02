@@ -13,6 +13,13 @@
 # Aquí dentro definir la función ordenar
 # def ordenar(lista):
 
+from audioop import reverse
+
+
+def ordenar(numeros):
+    lista_ordenada = sorted(numeros)
+    return lista_ordenada
+    
 # --------------------------------
 
 
@@ -32,8 +39,9 @@ if __name__ == '__main__':
     # usando la funciones nativas de Python "sorted"
 
     # Luego de crear la función invocarla en este lugar:
-
-    # lista_ordenada = ordenar(numeros)
+    lista_ordenada = ordenar(numeros)
+    print(lista_ordenada)
+    # print(lista_ordenada.sort(reverse=True))
 
     # Imprimir en pantalla "lista_ordenada" que tendrá
     # los valores retornado por la función ordenar:

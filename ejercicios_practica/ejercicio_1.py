@@ -14,8 +14,11 @@ def imprimir_mayor(numero_1, numero_2):
     # En esta función debe determinar cual de los dos
     # números ingresados por parámetro es mayor
     # y luego imprimir dicho valor en pantalla
-
-
+    if numero_1 > numero_2:
+        print('El numero mayor es: {}'.format(numero_1))
+    else:
+        print('El numero mayor es: {}'.format(numero_2))
+        
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     

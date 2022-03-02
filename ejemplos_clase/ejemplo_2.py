@@ -24,6 +24,7 @@ def precio_productos(cantidad_productos):
     # Retornar la lista de precios de productos
     return productos
 
+
 def precio_productos_aleatorios(valor_min, valor_max, cantidad):
     productos = []  # lista donde almacenaremos los precios, comienza vacia
     

@@ -17,7 +17,8 @@ def calcular_precio_total_bucle(lista_productos):
     # Profesor: Implementar un bucle que
     # recorra la variable "lista_productos"
     # y obtener el precio total de la lista
-
+    for precio in lista_productos:
+        precio_total += precio
     return precio_total
 
 

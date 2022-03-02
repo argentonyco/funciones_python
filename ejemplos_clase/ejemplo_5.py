@@ -15,19 +15,26 @@
 # --------------------------------
 # Aquí dentro definir la función "cantidad_productos"
 # def cantidad_productos():
+def cantidad_productos():
+    cantidad_comprados = int(input("¿Cuántos productos compró?: "))
+    return cantidad_comprados
 
 # --------------------------------
 
 # --------------------------------
 # Aquí dentro definir la función "precio_productos"
 # def precio_productos(cantidad_productos):
-
+def precio_productos(cantidad_productos):
+    precio_del_producto = input('¿Precio del producto?')
+    return precio_del_producto
 # --------------------------------
 
 # --------------------------------
 # Aquí dentro definir la función "calcular_precio_total"
 # def calcular_precio_total(lista_productos):
-
+def calcular_precio_total(lista_productos):
+    precio_total = sum(lista_productos)
+    return precio_total
 # --------------------------------
 
 if __name__ == '__main__':
@@ -42,7 +49,7 @@ if __name__ == '__main__':
 
     # 1) Primero obtener la cantidad de productos comprados
     # cantidad = cantidad_productos....
-
+    
     # 2) Obtener el precio de cada producto comprado
     # en una lista de "productos"
     # productos = precio_productos(....)
